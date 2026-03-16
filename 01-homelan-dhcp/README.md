@@ -65,5 +65,5 @@ and access control policies.
 ## Files
 - `HomeLan.pkt` — Packet Tracer project file
 - `topology.png` — Network topology diagram
-- `configs/router0-config.txt` — Router0 running configuration (adding soon had some issues)
-- `configs/switch0-config.txt` — Switch0 running configuration (adding soon had some issues)
+- `configs/router0-config.txt` — Router0 running configuration 
+- `configs/switch0-config.txt` — Switch0 running configuration 
