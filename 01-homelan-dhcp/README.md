@@ -1,8 +1,8 @@
 # Lab 01 — Home LAN with DHCP, VLANs, and ACLs
 
 ## Objective
-Design and configure a small office network simulating a real business 
-environment, implementing network segmentation, dynamic IP addressing, 
+Design and configure a small home network simulating my current home 
+environment (3pc's, 1 printer, 1 laptop) but trying to make it more secure, implementing network segmentation, dynamic IP addressing, 
 and access control policies.
 
 ## Tools Used
@@ -43,7 +43,12 @@ and access control policies.
 - Denied all other traffic from VLAN 10 to VLAN 20
 - Permitted VLAN 10 full access to all other destinations
 
-## Security Concepts Demonstrated
+### FIREWALL
+- Currently not implemented but planning on creating a firewall for more security
+- perhaps stateful packet inspection???
+- DMZ security zones???
+
+## Security Concepts 
 - Network segmentation using VLANs
 - Principle of least privilege via Extended ACLs
 - Static IP assignment for network peripherals
@@ -56,11 +61,9 @@ and access control policies.
 
 ## Next Steps
 - Lab 02: Add Cisco ASA firewall with inside/outside/DMZ zones
-- Lab 03: Implement NAT for simulated internet access
-- Lab 04: Add a DMZ with a web server
 
 ## Files
 - `HomeLan.pkt` — Packet Tracer project file
 - `topology.png` — Network topology diagram
-- `configs/router0-config.txt` — Router0 running configuration
-- `configs/switch0-config.txt` — Switch0 running configuration
+- `configs/router0-config.txt` — Router0 running configuration (adding soon had some issues)
+- `configs/switch0-config.txt` — Switch0 running configuration (adding soon had some issues)
